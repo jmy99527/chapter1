@@ -1,35 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T11:31:44.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="QpKVk9kJ1v64MqYjeOmY" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T11:34:15.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="chRNVFfYmdw1JaNNo0Tz" version="13.10.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="913" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="iu21LLIfbxoGuZJ0gevz-0" value="持仓页面分拆" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="545" width="120" height="40" as="geometry" />
+          <mxGeometry x="200" y="165" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iu21LLIfbxoGuZJ0gevz-6" value="订单查询页面" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="605" width="120" height="40" as="geometry" />
+          <mxGeometry x="200" y="225" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iu21LLIfbxoGuZJ0gevz-7" value="立项单/用印单/查询" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="670" width="120" height="40" as="geometry" />
+          <mxGeometry x="200" y="290" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iu21LLIfbxoGuZJ0gevz-8" value="线下保险金" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="540" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iu21LLIfbxoGuZJ0gevz-9" value="线下家族信托" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="605" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="225" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iu21LLIfbxoGuZJ0gevz-10" value="补充协议" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="670" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="290" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iu21LLIfbxoGuZJ0gevz-11" value="邮寄合同" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="740" width="120" height="40" as="geometry" />
+          <mxGeometry x="200" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iu21LLIfbxoGuZJ0gevz-12" value="保单追加" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="740" width="120" height="40" as="geometry" />
+        <mxCell id="iu21LLIfbxoGuZJ0gevz-12" value="追加保单、现金" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iu21LLIfbxoGuZJ0gevz-13" value="保单查询" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="810" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="430" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
