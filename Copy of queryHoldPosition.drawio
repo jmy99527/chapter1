@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T07:40:24.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d4_CEdZ8yh44RRU5ecp4" version="14.0.0" type="github"><diagram id="MpKOYXsyZB0nzLLyLdtM" name="Page-1">1Vnbkto4EP0aPeKS7/gRMySzm8zubJFUMnnZEliDnRjklcUtXx/Zlnw3YVjjGagCpFZLlvr0kVptoE/Xh/cURf4D8XAINOgdgH4HNM1Rdf6bCI6ZwNRgJljRwMtEaiGYBz+xEEq1beDhuKLICAlZEFWFS7LZ4CWryBClZF9VeyZh9akRWuGGYL5EYVP6JfCYn0nHml3I73Gw8uWTVcvJWtZIKouVxD7yyL4k0mdAn1JCWFZaH6Y4TGwn7ZL1e9fRmk+M4g07p8O//wT6Z3v04a8f4c/7L6Fzv/szGIlRYnaUCyaU+WRFNij8SEjEZSrQ3e+YsaMAB20Z4SKfrUPRGjNKfuTm4Qtzm3OTDyJbusQnJqRletirwCJW9B6TNWb0yBUoDhELdlWUkAB7levlXR9JwKeiQeGXHKisi3RL6FSHYIiuMBO9CqvyQmkahSi19QvsLpa5Q+FWLAFoVsht5T6TdJ4FItZ/WyIbRnGKwYQrqEZ0KBp5aSX+01EWuWBmAHcKJhDMTDCZAdcSBedu8vgo1fkaFvUhuCybixTXHIWS7cbDnvCBvR8wPI9QCu6ebwVVF+l0iB2mDB9OQi1bzSpkhiYg2xe8VCXZ/BInLdjtHRVcXwqi3rBJ4rZzUd2QDf9ze+ETtxo9fuUVqNiy+sSrI6hAQwruEkPBvHYs1x4xDfiiMRXCywlqiE045ccJPbtvIv8vqIzh+GYBx075ZgPHBONpysAJcNSHP+a3xDfdgK/HN+3rN1NzyOcpef77aTY+fHowphLEDr4VRJsVUrewGryMjPgQsIx5mimqT6WmgnRJpcK5rJdZ5iv8DVdbOdOCY//noabxmVZORKMGY7YzNE7ElqO16jemZQ56tNqdVI8jtOmV6jZwdeBmBRc479LCHad6csaOzaT1NOGzGb0Rwqs1wpsSyBLhdbuF8Pq1DtjxUFAuvy9GKIr4N8jbaAtet4ehJF9507ZaMKyzvTcMnaEwJNTDNMZ0F3Dz3jSI2rgKoqVZTRDhkCDKneD6KCrp57bxq5PwDeBnXhA6XRIsybgnrzyVQqcTgc8LUgi/vXnImLTnHMKEUnQsKURJABN3h1SmWfUCWzVqOGYjntfbGtcSFB3hWF9RlNodRi0upzsJvZG3aOdyzT+bHlG+IfsoSvTWh1WSdVSeQ7Jf+ogyxUMMLVCMO4jeB7tru7Nt6ecdsVfLQ6jOwOyGimVW7jWqAuH4kjxEr6nD6/C+SU1bVew6ORXLgPmnNuS1c4mDHc5oHd/2yVyPrGxoDHcyt+Y0zKGwS6446yB+E1ecBmBnpThkXkp/xStOK4bN7bfHlyivkAwyJCvyVFBtiHNTQY2BLKOnnZFXizdnmXrx+lGf/QI=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-11T07:42:55.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="PMGea0jFcPgMUEUpyRqU" version="14.0.0" type="github">
+  <diagram id="MpKOYXsyZB0nzLLyLdtM" name="Page-1">
+    <mxGraphModel dx="913" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i4v3Hct5WxHWQe_M93EY-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;cjb-&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="126" y="620" width="390" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_Qi3U7-KNklzHWl9HvJi-1" style="orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="_Qi3U7-KNklzHWl9HvJi-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Qi3U7-KNklzHWl9HvJi-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;传家宝APP&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="151" y="429" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Qi3U7-KNklzHWl9HvJi-3" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.7;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_Qi3U7-KNklzHWl9HvJi-4" target="_Qi3U7-KNklzHWl9HvJi-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Qi3U7-KNklzHWl9HvJi-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;无界云MIS&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="429" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2XZ529oUCofOYE8xTM4C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="222.5" y="540" as="sourcePoint" />
+            <mxPoint x="210" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Qi3U7-KNklzHWl9HvJi-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;系统网关&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="510" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Qi3U7-KNklzHWl9HvJi-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;cjb-app-api&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="565" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_Qi3U7-KNklzHWl9HvJi-9" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;orderservice&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="151" y="700" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_Qi3U7-KNklzHWl9HvJi-10" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;cjb-external-system&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="642" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="2XZ529oUCofOYE8xTM4C-5" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;cjb-mis-api&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="565" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2XZ529oUCofOYE8xTM4C-9" style="orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="541" as="sourcePoint" />
+            <mxPoint x="404" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4v3Hct5WxHWQe_M93EY-3" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;cjb-warranty-service&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="642" width="160" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
