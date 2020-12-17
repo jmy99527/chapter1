@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T04:49:06.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jCfzN6gcVg_-o93rCgva" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T05:00:17.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eLTMurbLFUO9qSYZSM5I" version="14.0.1" type="github">
   <diagram id="MpKOYXsyZB0nzLLyLdtM" name="Page-1">
     <mxGraphModel dx="1980" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EF4DgZaoUzox8hAfEua7-14" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="310" width="390" height="450" as="geometry" />
-        </mxCell>
         <mxCell id="EF4DgZaoUzox8hAfEua7-13" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="295" width="650" height="475" as="geometry" />
+          <mxGeometry x="-260" y="295" width="640" height="475" as="geometry" />
         </mxCell>
         <mxCell id="i4v3Hct5WxHWQe_M93EY-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="1351" width="390" height="230" as="geometry" />
@@ -83,9 +80,6 @@
         </mxCell>
         <mxCell id="EF4DgZaoUzox8hAfEua7-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;A集群&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-10" y="310" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="EF4DgZaoUzox8hAfEua7-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;B集群&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="328" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EF4DgZaoUzox8hAfEua7-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;系统网关&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="240" width="475" height="30" as="geometry" />
@@ -207,7 +201,7 @@
             <mxPoint x="8" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EF4DgZaoUzox8hAfEua7-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;结论：&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;服务注册中心nacos划定为传家宝业务维护，由传家宝业务后端维护其可用性。&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;传家宝后端服务采用A/B集群部署，类似异地机房A/B集群之间服务隔离，&lt;/font&gt;&lt;/b&gt;&lt;b&gt;每个集群一套nacos，各自运转&lt;/b&gt;&lt;/li&gt;&lt;li&gt;每个集群中服务为2个节点高可用，nacos采用3个节点集群&lt;/li&gt;&lt;li&gt;传家宝后端服务升级，采用A/B集群流量切换&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EF4DgZaoUzox8hAfEua7-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;结论：&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;服务注册中心nacos划定为传家宝业务维护，由传家宝业务后端维护其可用性。&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;传家宝后端服务采用A/B集群部署，类似异地机房A/B集群之间服务隔离，&lt;/font&gt;&lt;/b&gt;&lt;b&gt;每个集群一套nacos，服务各自&lt;/b&gt;&lt;/li&gt;&lt;li&gt;每个集群中服务为2个节点高可用，nacos采用3个节点集群&lt;/li&gt;&lt;li&gt;传家宝后端服务升级，只有一种方案：采用A/B集群滚动升级，切流量配合服务升级（详细方案见）&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="30" width="500" height="218" as="geometry" />
         </mxCell>
       </root>
