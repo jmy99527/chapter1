@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T03:32:44.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="uo8lU13vOf_RMmMx5Hcp" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T04:49:06.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jCfzN6gcVg_-o93rCgva" version="14.0.1" type="github">
   <diagram id="MpKOYXsyZB0nzLLyLdtM" name="Page-1">
     <mxGraphModel dx="1980" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,6 +206,9 @@
             <mxPoint x="20" y="443" as="sourcePoint" />
             <mxPoint x="8" y="610" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EF4DgZaoUzox8hAfEua7-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;结论：&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;服务注册中心nacos划定为传家宝业务维护，由传家宝业务后端维护其可用性。&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;传家宝后端服务采用A/B集群部署，类似异地机房A/B集群之间服务隔离，&lt;/font&gt;&lt;/b&gt;&lt;b&gt;每个集群一套nacos，各自运转&lt;/b&gt;&lt;/li&gt;&lt;li&gt;每个集群中服务为2个节点高可用，nacos采用3个节点集群&lt;/li&gt;&lt;li&gt;传家宝后端服务升级，采用A/B集群流量切换&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="30" width="500" height="218" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
