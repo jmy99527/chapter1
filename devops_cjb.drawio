@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T10:22:33.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tXjsDD6jJ8UlSIlctr2M" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-18T01:35:26.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="od4jeWPrxRvXYwtnlz40" version="14.0.3" type="github">
   <diagram id="MpKOYXsyZB0nzLLyLdtM" name="Page-1">
-    <mxGraphModel dx="1901" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1901" dy="1781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,10 +140,10 @@
         <mxCell id="EF4DgZaoUzox8hAfEua7-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;系统网关&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="240" width="475" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EF4DgZaoUzox8hAfEua7-51" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="EF4DgZaoUzox8hAfEua7-4" edge="1">
+        <mxCell id="EF4DgZaoUzox8hAfEua7-51" value="" style="endArrow=classic;html=1;shape=flexArrow;strokeColor=#6666FF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="270" as="sourcePoint" />
-            <mxPoint x="300" y="350" as="targetPoint" />
+            <mxPoint x="150" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EF4DgZaoUzox8hAfEua7-52" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;50%&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EF4DgZaoUzox8hAfEua7-51" vertex="1" connectable="0">
@@ -151,7 +151,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EF4DgZaoUzox8hAfEua7-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;结论：&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;服务注册中心nacos划定为传家宝业务维护，由传家宝业务后端维护其可用性。&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;传家宝后端服务采用A/B集群部署，类似异地机房A/B集群之间服务隔离，&lt;/font&gt;&lt;/b&gt;&lt;b&gt;每个集群一套nacos，服务各自&lt;/b&gt;&lt;/li&gt;&lt;li&gt;每个集群中服务为2个节点高可用，nacos采用3个节点集群&lt;/li&gt;&lt;li&gt;传家宝后端服务升级，只有一种方案：采用A/B集群滚动升级，切流量配合服务升级（详细方案见）&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="EF4DgZaoUzox8hAfEua7-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;结论：&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;服务注册中心nacos划定为传家宝业务维护，由传家宝业务后端维护其可用性。&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;传家宝后端服务采用A/B集群部署，类似异地机房A/B集群之间服务隔离，&lt;/font&gt;&lt;/b&gt;&lt;b&gt;每个集群一套nacos，服务各自&lt;/b&gt;&lt;/li&gt;&lt;li&gt;每个集群中服务为2个节点高可用，nacos采用3个节点集群&lt;/li&gt;&lt;li&gt;传家宝后端服务升级，&lt;font color=&quot;#6666ff&quot;&gt;只有一种方案&lt;/font&gt;：采用A/B集群滚动升级，切流量配合服务升级（详细方案见）&lt;/li&gt;&lt;li&gt;传家宝服务采用优雅下线：先将自己从注册中心摘除，处理完当前任务后再关闭升级。&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-340" y="30" width="500" height="218" as="geometry" />
         </mxCell>
         <mxCell id="FRwrU2rM5BGR-URHhz7x-12" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -335,7 +335,7 @@
         <mxCell id="FRwrU2rM5BGR-URHhz7x-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;.......&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FRwrU2rM5BGR-URHhz7x-42">
           <mxGeometry x="17" y="405" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FRwrU2rM5BGR-URHhz7x-53" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="FRwrU2rM5BGR-URHhz7x-14">
+        <mxCell id="FRwrU2rM5BGR-URHhz7x-53" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;strokeColor=#6666FF;" edge="1" parent="1" target="FRwrU2rM5BGR-URHhz7x-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="270" as="sourcePoint" />
             <mxPoint x="90" y="325" as="targetPoint" />
@@ -351,6 +351,9 @@
         </mxCell>
         <mxCell id="FRwrU2rM5BGR-URHhz7x-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.999;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EF4DgZaoUzox8hAfEua7-13" target="FRwrU2rM5BGR-URHhz7x-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRwrU2rM5BGR-URHhz7x-59" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;服务升级方案&lt;br&gt;&lt;ol&gt;&lt;li&gt;流量切换：A集群0%，B集群100%。&lt;/li&gt;&lt;li&gt;A集群cjb-xxx-service各节点执行boot.sh stop/start升级&lt;/li&gt;&lt;li&gt;A集群cjb-xxx-api各节点执行boot.sh stop/start升级&lt;/li&gt;&lt;li&gt;流量切换：A集群100%，B集群0%&lt;/li&gt;&lt;li&gt;B集群cjb-xxx-service各节点执行boot.sh stop/start升级&lt;/li&gt;&lt;li&gt;B集群cjb-xxx-api各节点执行boot.sh stop/start升级&lt;/li&gt;&lt;li&gt;流量切换：A集群50%，B集群50%&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="500" height="218" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
